@@ -1,0 +1,27 @@
+name: uts_mobile
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  firebase_core: 2.12.0
+  firebase_auth: 4.6.0
+  hexcolor: 3.0.1
+  font_awesome_flutter: 10.4.0
+  google_fonts: 4.0.4
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: 2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+  uses-material-design: true
